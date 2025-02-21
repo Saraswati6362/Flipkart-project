@@ -1,0 +1,318 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+
+}
+
+header {
+	background-color: #287428;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 15px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+
+}
+
+.product-container {
+	display: flex;
+}
+
+.product-listing {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: left;
+	padding: 20px;
+}
+
+.product-card {
+	background-color: white;
+	border-radius: 10px;
+	width: 200px;
+	text-align: left;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+	padding: 15px;
+}
+
+.product-card img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.product-card p {
+	margin: 10px;
+	font-weight: bold;
+
+}
+
+.product-card span {
+	color: #050605;
+	font-size: 1.2rem;
+
+}
+
+.product-card button {
+	background-color: #ff3f6c;
+	color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+.product-card button:hover {
+	background-color: #e62e56;
+
+}
+
+.footer {
+	text-align: left;
+}
+
+.product-listing {
+	display: flex;
+	gap: 20px;
+	justify-content: left;
+	padding: 20px;
+}
+
+.product1-card {
+	background-color: white;
+	border-radius: 10px;
+	width: 200px;
+	text-align: left;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+	padding: 15px;
+}
+
+.product1-card img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.product1-card p {
+	margin: 10px;
+	font-weight: bold;
+
+}
+
+.product1-card span {
+	color: #287428;
+	font-size: 1.2rem;
+
+}
+
+.product1-card button {
+	background-color: #ff3f6c;
+	color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+.product1-card button:hover {
+	background-color: #e62e56;
+
+}
+
+.product2-card {
+	background-color: white;
+	border-radius: 10px;
+	width: 200px;
+	text-align: left;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+	padding: 15px;
+}
+
+.product2-card img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.product2-card p {
+	margin: 10px;
+	font-weight: bold;
+
+}
+
+.product1-card span {
+	color: #287428;
+	font-size: 1.2rem;
+
+}
+
+.product2-card button {
+	background-color: #ff3f6c;
+	color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+.product2-card button:hover {
+	background-color: #e62e56;
+
+}
+
+.product3-card {
+	background-color: white;
+	border-radius: 10px;
+	width: 200px;
+	text-align: left;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+	padding: 15px;
+}
+
+.product3-card img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.product3-card p {
+	margin: 10px;
+	font-weight: bold;
+
+}
+
+.product3-card span {
+	color: #287428;
+	font-size: 1.2rem;
+
+}
+
+.product3-card button {
+	background-color: #ff3f6c;
+	color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+.product3-card button:hover {
+	background-color: #e62e56;
+
+}
+
+.product1-container {
+	display: flex;
+}
+
+.product4-listing {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: left;
+	padding: 20px;
+}
+
+.product4-card {
+	background-color: white;
+	border-radius: 10px;
+	width: 200px;
+	text-align: left;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+	padding: 15px;
+}
+
+.product4-card img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.product4-card p {
+	margin: 10px;
+	font-weight: bold;
+
+}
+
+.product-card span {
+	color: #287428;
+	font-size: 1.2rem;
+
+}
+
+.product4-card button {
+	background-color: #ff3f6c;
+	color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+.product4-card button:hover {
+	background-color: #e62e56;
+
+}
+
+.product5-card {
+	background-color: white;
+	border-radius: 10px;
+	width: 200px;
+	text-align: left;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+	padding: 15px;
+}
+
+.product5-card img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.product5-card p {
+	margin: 10px;
+	font-weight: bold;
+
+}
+
+.product5-card span {
+	color: #287428;
+	font-size: 1.0rem;
+
+}
+
+.product5-card button {
+	background-color: #ff3f6c;
+	color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+.product5-card button:hover {
+	background-color: #e62e56;
+
+}
