@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Add Delivery Address</title>
+	<link rel="stylesheet" href="continue.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<h2>Add Delivery Address</h2>
+		<form id="addressForm">
+			<label for="name">Full Name:</label>
+			<input type="text" id="name" required>
+
+			<label for="mobile">Mobile Number:</label>
+			<input type="tel" id="mobile" required>
+
+			<label for="address">Address:</label>
+			<textarea id="address" required></textarea>
+
+			<label for="city">City:</label>
+			<input type="text" id="city" required>
+
+			<label for="state">State:</label>
+			<select id="state">
+				<option value="">Select State</option>
+				<option value="Karnataka">Karnataka</option>
+				<option value="Maharashtra">Maharashtra</option>
+				<option value="Delhi">Delhi</option>
+			</select>
+
+			<label for="pincode">Pincode:</label>
+			<input type="text" id="pincode" required>
+
+			<button type="submit">Order saved</button>
+		</form>
+	</div>
+
+	<script src="continue.js"></script>
+
+</body>
+
+</html>
